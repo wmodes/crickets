@@ -1,0 +1,80 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Coverage directory
+coverage/
+
+# Built or compiled files (e.g., TypeScript, Babel)
+dist/
+build/
+.out/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Debugging files
+*.log
+*.stackdump
+*.swp
+*.swo
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Tests and reports
+*.spec.js
+*.test.js
+.nyc_output/
+mochawesome-report/
+
+# Experiments (if temporary or not for release)
+experiments/
+
+# Ignore generated config files
+npm-shrinkwrap.json
+package-lock.json
+yarn.lock
+
+# audio production
+*.pkf
+**/audio/raw
+**/audio/prod
